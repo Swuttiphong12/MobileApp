@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="14dp"
+        android:background="#673AB7"
+        android:drawableBottom="@android:drawable/btn_star_big_on"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:text="Click Me!"
+        android:textAlignment="center"
+        android:textColor="#48FF5B"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/dataText"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="14dp"
+        android:drawableLeft="@android:drawable/ic_input_add"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="Enter Data:"
+        android:inputType="textPersonName"
+        android:onClick="onClickEditText"
+        android:textAlignment="viewStart"
+        android:textColor="#0000FF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:drawableRight="@android:drawable/ic_input_add"
+        android:gravity="center_vertical"
+        android:text="ADD DATA"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
